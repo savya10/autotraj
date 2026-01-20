@@ -1,0 +1,19 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
+DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
+Parsing folders (mp):   0%|          | 0/15 [00:00<?, ?it/s]Parsing folders (mp):  93%|█████████▎| 14/15 [00:01<00:00, 12.10it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:01<00:00, 10.67it/s]
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/YAG/YAG_rattled_0.02 -> Corrupted Vasprun: list index out of range
+
+Merging results into combined outputs...
+
+=============================================
+              MERGE SUMMARY
+=============================================
+✅ Total Calculations Merged:   62
+✅ Total Frames Collected:      249
+📊 Theoretical Max Frames:      310
+📊 Data Yield:                  80.3%
+📝 Summary saved to: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/HSE06/combined/summary.txt
+=============================================
+
+✅ Wrote combined trajectory: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/HSE06/combined/combined.traj
+ℹ️  No CSV created (Bulk Mode or CSV missing).

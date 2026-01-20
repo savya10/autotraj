@@ -1,0 +1,4 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0
+DEBUG: Scan complete. Visited 71 dirs. Found 50 calc folders.
+Parsing folders (mp):   0%|          | 0/5 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 5/5 [00:02<00:00,  1.96it/s]Parsing folders (mp): 100%|██████████| 5/5 [00:02<00:00,  1.96it/s]
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/In2O3/In2O3_rattled_0.02 -> Corrupted Vasprun: list index out of range

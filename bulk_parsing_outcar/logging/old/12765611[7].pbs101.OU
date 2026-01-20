@@ -1,0 +1,19 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
+DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
+Parsing folders (mp):   0%|          | 0/15 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:04<00:00,  3.72it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:04<00:00,  3.72it/s]
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Na2B2S5 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Na2B2S5
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CuS -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CuS
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/NaS2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/NaS2
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/supercell_gams_HSE06/AgSbTe2/AgSbTe2_bulk/vasp_gam -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/supercell_gams_HSE06/AgSbTe2/AgSbTe2_bulk/vasp_gam
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Ca2GeS4 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Ca2GeS4
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSeCl -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSeCl
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/InCuS2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/InCuS2
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSeI -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSeI
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/TiGeS3 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/TiGeS3
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SbSCl9 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SbSCl9
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSCl -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSCl
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/YAG/YAG_rattled_0.02 -> Corrupted Vasprun: list index out of range
+
+Merging results into combined outputs...
+✅ Wrote combined trajectory: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/HSE06/combined/combined.traj
+ℹ️  No CSV created (Bulk Mode or CSV missing).

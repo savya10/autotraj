@@ -1,0 +1,15 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
+DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
+Parsing folders (mp):   0%|          | 0/15 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:04<00:00,  3.24it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:04<00:00,  3.23it/s]
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/GaAgS2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/GaAgS2
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSBr -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSBr
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SnS -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SnS
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/GaCuS2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/GaCuS2
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/PbS -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/PbS
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Tl3AsSe4 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Tl3AsSe4
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CuSbSe2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CuSbSe2
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Na4SiSe4 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Na4SiSe4
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiS2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiS2
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/supercell_gams_HSE06/InCuTe2/InCuTe2_bulk/vasp_gam -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/supercell_gams_HSE06/InCuTe2/InCuTe2_bulk/vasp_gam
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiIO -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiIO
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/CuInTe2/CuInTe2_rattled_0.02 -> Corrupted Vasprun: list index out of range

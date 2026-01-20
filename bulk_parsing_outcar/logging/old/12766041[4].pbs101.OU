@@ -1,0 +1,4 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
+DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
+Parsing folders (mp):   0%|          | 0/7 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 7/7 [00:00<00:00, 52.93it/s]Parsing folders (mp): 100%|██████████| 7/7 [00:00<00:00, 52.83it/s]
+[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/CuInTe2/CuInTe2_rattled_0.04 (vasprun.xml.gz). Switching to OUTCAR fallback.

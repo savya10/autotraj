@@ -1,0 +1,12 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
+DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
+Parsing folders (mp):   0%|          | 0/11 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 11/11 [00:00<00:00, 285.71it/s]
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CdSe -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CdSe
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Bi2S3 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Bi2S3
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSI -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSI
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CdS -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CdS
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/PbSe -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/PbSe
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/NaTiCuS3 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/NaTiCuS3
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SbSI -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SbSI
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Li4SnS4 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Li4SnS4
+[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/YAG/YAG_rattled_0.00 -> Corrupted Vasprun: list index out of range

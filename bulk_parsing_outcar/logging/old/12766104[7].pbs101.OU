@@ -1,0 +1,18 @@
+DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
+DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
+Parsing folders (mp):   0%|          | 0/15 [00:00<?, ?it/s]Parsing folders (mp):  60%|██████    | 9/15 [00:00<00:00, 59.25it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:06<00:00,  2.04it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:06<00:00,  2.46it/s]
+[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/YAG/YAG_rattled_0.02 (vasprun.xml.gz). Switching to OUTCAR fallback.
+
+Merging results into combined outputs...
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__CuInTe2__CuInTe2_rattled_0.00__a86a78679960.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__CuInTe2__CuInTe2_rattled_0.02__2d96220d5eb2.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__CuInTe2__CuInTe2_rattled_0.04__e87f2f491b6e.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__LiNiO3__LiNiO3_rattled_0.00__427f82a87cf4.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__LiNiO3__LiNiO3_rattled_0.02__8f82c6005661.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__LiNiO3__LiNiO3_rattled_0.04__f3126839c3d4.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__YAG__YAG_rattled_0.00__1cf196461bdb.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__YAG__YAG_rattled_0.02__bad5c4eacfa7.traj (This is not an ULM formatted file.)
+[WARN] Could not read traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__HSE06__vasp_archive__YAG__YAG_rattled_0.04__073134a77fb3.traj (This is not an ULM formatted file.)
+📝 Summary saved to: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/HSE06/combined/summary.txt
+✅ Wrote combined trajectory: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/HSE06/combined/combined.traj
+ℹ️  No CSV created (Bulk Mode or CSV missing).

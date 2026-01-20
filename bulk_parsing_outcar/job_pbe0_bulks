@@ -1,0 +1,47 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -P 12003663
+#PBS -N bulk_parse_pbe0
+#PBS -j oe
+#PBS -J 0-7
+#PBS -l select=1:ncpus=16:mem=64GB
+#PBS -l walltime=04:00:00
+
+#PBS -o logging
+cd "$PBS_O_WORKDIR"
+
+# 2. Create the logging directory if it doesn't exist
+mkdir -p logging
+
+# 3. Enter the logging directory
+cd logging
+
+# Load environment
+module load miniforge3/25.3.1
+source ~/.bashrc
+conda activate autotraj 
+
+# Thread safety
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export OPENBLAS_NUM_THREADS=1
+export VECLIB_MAXIMUM_THREADS=1
+export NUMEXPR_NUM_THREADS=1
+
+# --- CONFIGURATION ---
+# 1. Point this to your folder containing BULK calculations
+ROOT="/home/users/industry/ucl/svyagg/scratch/bulks/bulks_primitive_relaxations/PBE0"
+
+# 2. Output folder
+OUT="/home/users/industry/ucl/svyagg/scratch/bulks/bulk_traj_frames/PBE0/"
+
+# --- RUNNING WITH --bulk-calculation ---
+# We use --use-outcar-parsing to fix the truncated xml issue
+python ../../driver.py \
+    --root "$ROOT" \
+    --output "$OUT" \
+    --workers 15 \
+    --chunk-index "${PBS_ARRAY_INDEX}" \
+    --nchunks 8 \
+    --n-steps 10 \
+    --bulk-calculation
