@@ -1,27 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0
-DEBUG: Scan complete. Visited 71 dirs. Found 50 calc folders.
-Parsing folders (mp):   0%|          | 0/6 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 6/6 [00:00<00:00, 68.25it/s]
-[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/Sb2O5 (vasprun.xml.gz). Switching to OUTCAR fallback.
-[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/ZGO/ZGO_rattled_0.04 (vasprun.xml.gz). Switching to OUTCAR fallback.
-[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/ZGO/ZGO_rattled_0.00 (vasprun.xml.gz). Switching to OUTCAR fallback.
-
-Merging results into combined outputs...
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__CaCuP__CaCuP_rattled_0.02__dc6820a82fbc.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__CaCuP__CaCuP_rattled_0.04__f05f958802ac.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__In2O3__5d915a75e425.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__In2O3__In2O3_rattled_0.02__4134cdd7263b.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__In2O3__In2O3_rattled_0.04__c7d4c10e41b0.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__LiGa5O8__LiGa5O8_rattled_0.02__af69b905cc95.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__LiGa5O8__LiGa5O8_rattled_0.04__4bdd3f91bfe0.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__Sb2O5__d8cedd0313e8.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__ZGO__ZGO_rattled_0.00__ea9e3531fe15.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__ZGO__ZGO_rattled_0.02__92c8d1a284f7.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__PBE0_bulk_TCOs__ZGO__ZGO_rattled_0.04__fd58edac0739.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__supercell_gams_PBE0__Cd_SbO3_2__Cd_SbO3_2_bulk__vasp_gam__50e060436574.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__supercell_gams_PBE0__In2O3__In2O3_bulk__vasp_gam__84956cca7006.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__supercell_gams_PBE0__Ke_std_MgSb2O6__60822a6a23b2.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__supercell_gams_PBE0__LiGa5O8__LiGa5O8_bulk__vasp_gam__9b453286f92c.traj (This is not an ULM formatted file.)
-[WARN] Skipping corrupted traj file: __scratch__users__industry__ucl__svyagg__bulks__bulks_primitive_relaxations__PBE0__supercell_gams_PBE0__Sb2O5__Sb2O5_bulk__vasp_gam__61b27889df17.traj (This is not an ULM formatted file.)
-📝 Summary saved to: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/PBE0/combined/summary.txt
-✅ Wrote combined trajectory: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/PBE0/combined/combined.traj
-ℹ️  No CSV created (Bulk Mode or CSV missing).

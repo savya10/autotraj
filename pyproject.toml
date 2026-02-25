@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autotraj"
+version = "0.0.0"
+description = "autotraj parsing utilities"
+requires-python = ">=3.8"
+dependencies = [
+  "ase",
+  "numpy",
+  "pymatgen",
+  "tqdm",
+  "pandas"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["autotraj"]
+exclude = ["old", "old.*", "new", "new.*", "bulk_parsing_outcar", "bulk_parsing_outcar.*"]

@@ -1,8 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML
-DEBUG: Scan complete. Visited 70 dirs. Found 68 calc folders.
-Parsing folders (mp):   0%|          | 0/10 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 10/10 [00:00<00:00, 68.22it/s]Parsing folders (mp): 100%|██████████| 10/10 [00:00<00:00, 68.11it/s]
-
-Merging results into combined outputs...
-📝 Summary saved to: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/IML/combined/summary.txt
-✅ Wrote combined trajectory: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/IML/combined/combined.traj
-ℹ️  No CSV created (Bulk Mode or CSV missing).

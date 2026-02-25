@@ -1,4 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
-DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
-Parsing folders (mp):   0%|          | 0/11 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 11/11 [00:00<00:00, 214.72it/s]
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/YAG/YAG_rattled_0.00 -> Corrupted Vasprun: list index out of range

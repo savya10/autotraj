@@ -1,7 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0
-DEBUG: Scan complete. Visited 71 dirs. Found 50 calc folders.
-Parsing folders (mp):   0%|          | 0/6 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 6/6 [00:03<00:00,  1.90it/s]Parsing folders (mp): 100%|██████████| 6/6 [00:03<00:00,  1.90it/s]
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/In2O3 -> Corrupted Vasprun: list index out of range
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/ZGO/ZGO_rattled_0.02 -> Corrupted Vasprun: list index out of range
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/LiGa5O8/LiGa5O8_rattled_0.02 -> Corrupted Vasprun: list index out of range
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/In2O3/In2O3_rattled_0.04 -> Corrupted Vasprun: list index out of range

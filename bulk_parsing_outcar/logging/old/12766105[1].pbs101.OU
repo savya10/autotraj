@@ -1,6 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0
-DEBUG: Scan complete. Visited 71 dirs. Found 50 calc folders.
-Parsing folders (mp):   0%|          | 0/9 [00:00<?, ?it/s]Parsing folders (mp):  78%|███████▊  | 7/9 [00:02<00:00,  3.29it/s]Parsing folders (mp):  89%|████████▉ | 8/9 [00:02<00:00,  3.18it/s]Parsing folders (mp): 100%|██████████| 9/9 [00:02<00:00,  3.56it/s]
-[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/LiSbO3 (vasprun.xml.gz). Switching to OUTCAR fallback.
-[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/GeO2 (vasprun.xml.gz). Switching to OUTCAR fallback.
-[WARN] Vasprun malformed in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/LiSbO3/LiSbO3_rattled_0.04 (vasprun.xml.gz). Switching to OUTCAR fallback.

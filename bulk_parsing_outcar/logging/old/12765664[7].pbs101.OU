@@ -1,21 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0
-DEBUG: Scan complete. Visited 71 dirs. Found 50 calc folders.
-Parsing folders (mp):   0%|          | 0/6 [00:00<?, ?it/s]Parsing folders (mp):  50%|█████     | 3/6 [00:00<00:00, 16.67it/s]Parsing folders (mp): 100%|██████████| 6/6 [00:00<00:00, 26.14it/s]
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/ZGO/ZGO_rattled_0.04 -> Corrupted Vasprun: list index out of range
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/ZGO/ZGO_rattled_0.00 -> Corrupted Vasprun: list index out of range
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/PBE0/PBE0_bulk_TCOs/Sb2O5 -> Corrupted Vasprun: 'Vasprun' object has no attribute 'generator'
-
-Merging results into combined outputs...
-
-=============================================
-              MERGE SUMMARY
-=============================================
-✅ Total Calculations Merged:   13
-✅ Total Frames Collected:      35
-📊 Theoretical Max Frames:      65
-📊 Data Yield:                  53.8%
-📝 Summary saved to: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/PBE0/combined/summary.txt
-=============================================
-
-✅ Wrote combined trajectory: /scratch/users/industry/ucl/svyagg/bulks/bulk_traj_frames/PBE0/combined/combined.traj
-ℹ️  No CSV created (Bulk Mode or CSV missing).

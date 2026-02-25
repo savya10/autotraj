@@ -1,3 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/folders/PBE0
-DEBUG: Scan complete. Visited 29 dirs. Found 10 calc folders.
-Parsing folders (mp):   0%|          | 0/1 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 1/1 [00:00<00:00,  5.03it/s]Parsing folders (mp): 100%|██████████| 1/1 [00:00<00:00,  5.03it/s]

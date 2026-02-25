@@ -1,4 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
-DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
-Parsing folders (mp):   0%|          | 0/15 [00:00<?, ?it/s]Parsing folders (mp):  87%|████████▋ | 13/15 [00:00<00:00, 56.77it/s]Parsing folders (mp): 100%|██████████| 15/15 [00:02<00:00,  5.60it/s]
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/vasp_archive/CuInTe2/CuInTe2_rattled_0.00 -> Corrupted Vasprun: list index out of range

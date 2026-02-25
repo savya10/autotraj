@@ -1,3 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML
-DEBUG: Scan complete. Visited 70 dirs. Found 68 calc folders.
-Parsing folders (mp):   0%|          | 0/9 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 9/9 [00:00<00:00, 66.78it/s]Parsing folders (mp): 100%|██████████| 9/9 [00:00<00:00, 66.65it/s]

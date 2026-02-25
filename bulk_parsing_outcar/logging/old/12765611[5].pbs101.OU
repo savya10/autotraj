@@ -1,13 +1,0 @@
-DEBUG: Scanning root: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06
-DEBUG: Scan complete. Visited 112 dirs. Found 92 calc folders.
-Parsing folders (mp):   0%|          | 0/10 [00:00<?, ?it/s]Parsing folders (mp): 100%|██████████| 10/10 [00:00<00:00, 6211.94it/s]
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/AgBiSCl2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/AgBiSCl2
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Ca2SnS4 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Ca2SnS4
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSeBr -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/BiSeBr
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SnSe -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SnSe
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/InI -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/InI
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/PdSe -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/PdSe
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SbSBr -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/SbSBr
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CuAsSe -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/CuAsSe
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Tl3PS4 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/Tl3PS4
-[WARN] Failed: /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/RhSe2 -> Missing OUTCAR* in /scratch/users/industry/ucl/svyagg/bulks/bulks_primitive_relaxations/HSE06/IML/RhSe2
