@@ -90,21 +90,6 @@ def _parse_path_for_defect(vasprun_filepath):
     
     parts = vasprun_filepath.split(os.sep)
     for folder in parts:
-        folder_lower = folder.lower()
-
-        # NEW (1): skip file-like components so we never parse from vasprun/outcar filenames
-        if folder_lower.startswith(("vasprun", "outcar")) or any(ext in folder_lower for ext in [".xml", ".gz", ".bz2", ".xz"]):
-            continue
-
-        # NEW (2): skip k-point metadata folders like "01_KPOINTS_222"
-        # (These are not defects, but match the Name_<int> pattern.)
-        if "kpoints" in folder_lower or folder_lower.startswith("kpoints"):
-            continue
-
-        # (Optional) If you want to be stricter with other metadata folders, uncomment:
-        # if re.match(r"^\d+_", folder_lower):  # e.g. 01_KPOINTS_222, 03_SOMETHING_10
-        #     continue
-
         # 1. Skip Distortion/Rattled folders to prevent false matching of numbers
         # e.g. "Bond_Distortion_40.0%" should not be parsed as charge 40
         if any(x in folder for x in ["Distortion", "Rattled", "Unperturbed", "Dimer", "Trimer"]):
@@ -115,6 +100,11 @@ def _parse_path_for_defect(vasprun_filepath):
         
         # 3. Regex Magic 
         # Matches: "Name_Charge" OR "Name_Charge-Suffix" OR "Name_Charge Suffix"
+        # ^(.*)       -> Group 1: Defect Name (greedy)
+        # _           -> Separator
+        # ([+-]?\d+)  -> Group 2: Charge (integer)
+        # (?:[- ].*)? -> Non-capturing optional suffix starting with hyphen or space (handles sync artifacts)
+        # $           -> End of string
         match = re.match(r"^(.*)_([+-]?\d+)(?:[- ].*)?$", folder_clean)
         
         if match:

@@ -5,16 +5,16 @@ import random
 
 # ================= CONFIGURATION =================
 # 1. Your existing large training file (defects + whatever else)
-DEFECTS_FILE = "/home/users/industry/ucl/svyagg/scratch/polarons_dataset/training/combined/combined.traj" 
+DEFECTS_FILE = "/home/users/industry/ucl/svyagg/scratch/total_charge_datasets/pbe0_corrected_10-1-26_n15/training/COMBINED/combined_all.traj" 
 
 # 2. Your file containing JUST the pristine bulk frames (one per system)
-BULK_ONLY_FILE = "/home/users/industry/ucl/svyagg/scratch/bulks/bulk_traj_frames/PBE0/combined/combined.traj" 
+BULK_ONLY_FILE = "/home/users/industry/ucl/svyagg/scratch/total_charge_datasets/pbe0_corrected_10-1-26_n15/bulk/bulk/combined/combined.traj" 
 
 # 3. Output file
-OUTPUT_FILE = "/home/users/industry/ucl/svyagg/scratch/polarons_dataset/training/combined/combined_training_bulk.traj"
+OUTPUT_FILE = "/home/users/industry/ucl/svyagg/scratch/total_charge_datasets/pbe0_corrected_10-1-26_n15/training/COMBINED/combined_training_bulk.traj"
 
 # 4. How many copies of each bulk system do you want?
-TARGET_COPIES = 5
+TARGET_COPIES = 1 
 # =================================================
 
 def main():
@@ -38,27 +38,20 @@ def main():
         formula = bulk_atom.get_chemical_formula()
         systems_found[formula] += 1
         
-        # --- THE FIX IS HERE ---
-        # We loop to create copies, but we MUST explicitly re-attach the calculator.
-        for _ in range(TARGET_COPIES):
-            new_copy = bulk_atom.copy()
-            
-            # ASE .copy() drops the calculator. We must put it back.
-            # Since SinglePointCalculator is just static data, 
-            # it is safe to point to the same calculator object.
-            new_copy.calc = bulk_atom.calc
-            
-            oversampled_bulks.append(new_copy)
-        # -----------------------
+        # Create N copies of this specific bulk frame
+        # We use .copy() to ensure they are independent objects in memory
+        copies = [bulk_atom.copy() for _ in range(TARGET_COPIES)]
+        
+        # Add to our list
+        oversampled_bulks.extend(copies)
 
     print(f"   Created {len(oversampled_bulks)} new bulk frames across {len(systems_found)} systems.")
 
     # Combine everything
     print("🔗 Merging datasets...")
-    # NOTE: defect_atoms were never copied, so they kept their calculators.
     final_dataset = defect_atoms + oversampled_bulks
     
-    # Shuffle!
+    # Shuffle! This is crucial so the bulk frames aren't all at the end
     print("🔀 Shuffling...")
     random.shuffle(final_dataset)
 

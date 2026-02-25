@@ -4,17 +4,17 @@ from collections import defaultdict
 import random
 
 # ================= CONFIGURATION =================
-# 1. Your existing large training file (defects + whatever else)
-DEFECTS_FILE = "/home/users/industry/ucl/svyagg/scratch/polarons_dataset/training/combined/combined.traj" 
+# 1. Your existing large training file
+DEFECTS_FILE = "/home/users/industry/ucl/svyagg/scratch/PAPER2_CHARGE_AWARE/FULLY_IONIZED/PBE0/NC/training/combined/combined.traj" 
 
-# 2. Your file containing JUST the pristine bulk frames (one per system)
+# 2. Your file containing JUST the pristine bulk frames
 BULK_ONLY_FILE = "/home/users/industry/ucl/svyagg/scratch/bulks/bulk_traj_frames/PBE0/combined/combined.traj" 
 
 # 3. Output file
-OUTPUT_FILE = "/home/users/industry/ucl/svyagg/scratch/polarons_dataset/training/combined/combined_training_bulk.traj"
+OUTPUT_FILE = "/home/users/industry/ucl/svyagg/scratch/PAPER2_CHARGE_AWARE/FULLY_IONIZED/PBE0/NC/training/combined/combined_all_training_bulk.traj"
 
 # 4. How many copies of each bulk system do you want?
-TARGET_COPIES = 5
+TARGET_COPIES = 10
 # =================================================
 
 def main():
