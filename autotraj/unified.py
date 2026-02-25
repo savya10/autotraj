@@ -19,8 +19,8 @@ from pymatgen.io.ase import AseAtomsAdaptor
 from ase.io import Trajectory, read
 from ase.calculators.singlepoint import SinglePointCalculator
 
-from utils import read_vasprun_data, path_has_high_energy, extract_defect_info
-from parallelised_charge_correction import EFNVCorrectionTrajectory
+from .utils import read_vasprun_data, path_has_high_energy, extract_defect_info
+from .parallelised_charge_correction import EFNVCorrectionTrajectory
 
 # Conversion factor: 1 eV/Ang^3 = 160.21766 GPa = 1602.1766 kBar
 KBAR_TO_EV_A3 = 1.0 / 1602.1766208

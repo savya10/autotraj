@@ -9,8 +9,8 @@ import hashlib
 
 from tqdm import tqdm
 
-from utils import path_has_high_energy
-from unified import VaspWorkflow
+from .utils import path_has_high_energy
+from .unified import VaspWorkflow
 
 # --- helper functions ---
 
